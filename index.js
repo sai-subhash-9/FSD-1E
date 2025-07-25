@@ -65,7 +65,7 @@ const server = http.createServer((req, res) => {
         res.write('<p>No search parameters</p>');
       }
 
-      res.write('<br><a href="/">🔙 Try another URL</a>');
+      res.write('<br><a href="/"> Try another URL</a>');
       res.write('</body></html>');
       res.end();
     });
